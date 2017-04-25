@@ -1,4 +1,7 @@
-# test coverage for  [pino (v4.2.4)](https://github.com/pinojs/pino#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-pino.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-pino) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-pino.svg)](https://travis-ci.org/npmtest/node-npmtest-pino)
+# npmtest-pino
+
+#### basic test coverage for  [pino (v4.3.0)](https://github.com/pinojs/pino#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-pino.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-pino) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-pino.svg)](https://travis-ci.org/npmtest/node-npmtest-pino)
+
 #### super fast, all natural json logger
 
 [![NPM](https://nodei.co/npm/pino.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/pino)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-pino/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-pino/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-pino/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-pino/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-pino/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-pino/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-pino/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-pino/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-pino/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-pino/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-pino/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-pino/build/coverage.html/index.html)
 
@@ -76,7 +79,7 @@
         "loglevel": "^1.4.0",
         "pre-commit": "^1.2.2",
         "snazzy": "^6.0.0",
-        "standard": "^9.0.0",
+        "standard": "^10.0.0",
         "steed": "^1.1.3",
         "tap": "^10.0.0",
         "tape": "^4.6.2",
@@ -86,8 +89,8 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "e893cc31446402574aa976816e5c373e869106fa",
-        "tarball": "https://registry.npmjs.org/pino/-/pino-4.2.4.tgz"
+        "shasum": "67c5ef9ef9d39db1d28aa46c535262153574205a",
+        "tarball": "https://registry.npmjs.org/pino/-/pino-4.3.0.tgz"
     },
     "files": [
         "pino.js",
@@ -100,7 +103,7 @@
         "example.js",
         "lib"
     ],
-    "gitHead": "e5e455049e24da61f7f168e2b6e5392524535c8f",
+    "gitHead": "74bc0fd8af2ee10d398ab7a6d9a0207ee138405c",
     "homepage": "https://github.com/pinojs/pino#readme",
     "keywords": [
         "fast",
@@ -145,7 +148,7 @@
         "ci": "standard | snazzy && tap --cov test/*test.js",
         "test": "standard | snazzy && tap --no-cov test/*test.js"
     },
-    "version": "4.2.4"
+    "version": "4.3.0"
 }
 ```
 
